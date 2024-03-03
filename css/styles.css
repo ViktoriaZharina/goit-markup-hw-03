@@ -4,6 +4,21 @@ body {
     background: #fff;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 1440px;
+        height: 72px;
+}
+
+nav ul,
+address ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 .logo {
     color: #4D5AE5;
@@ -13,10 +28,27 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 0px;
+        width: 115px;
+            height: 24px;
 }
 
 .logo-part {
     color: #2E2F42;
+}
+
+.header-list{
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 40px;
+        width: 261px;
+            height: 24px;
 }
 
 .nav-link {
@@ -70,6 +102,15 @@ body {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
+        display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: row;
+            gap: 10px;
+            border-radius: 4px;
+                padding: 16px 32px;
+                width: 169px;
+                height: 56px;
 }
 
 .section-one-btn:hover{
