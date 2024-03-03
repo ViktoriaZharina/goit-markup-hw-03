@@ -3,8 +3,19 @@ body {
     color: #434455;
     background: #fff;
 }
+img{
+    display: block;
+}
 
-header {
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.container-header {
+    border-bottom: 1px solid #e7e9fc;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,6 +23,14 @@ header {
     width: 1440px;
         height: 72px;
 }
+
+
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
 
 nav ul,
 address ul {
@@ -35,6 +54,8 @@ address ul {
         gap: 0px;
         width: 115px;
             height: 24px;
+            margin-right: 76px;
+        
 }
 
 .logo-part {
@@ -49,6 +70,7 @@ address ul {
         gap: 40px;
         width: 261px;
             height: 24px;
+            padding: 24px 0;
 }
 
 .nav-link {
@@ -66,6 +88,8 @@ address ul {
 
 .address {
     font-style: normal;
+    display: flex;
+    gap: 40px;
 }
 
 .address-link {
@@ -82,6 +106,7 @@ address ul {
 
 .section-one{
     background: #2e2f42;
+    padding: 188px 0;
 }
 
 .section-one-title{
@@ -92,6 +117,7 @@ address ul {
         text-align: center;
         color: #fff;
         line-height: 1.07;
+        max-width: 496px;
 }
 
 
@@ -102,7 +128,6 @@ address ul {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
-        display: flex;
             align-items: flex-start;
             justify-content: flex-start;
             flex-direction: row;
@@ -110,7 +135,11 @@ address ul {
             border-radius: 4px;
                 padding: 16px 32px;
                 width: 169px;
+                display: block;
+                min-width: 169px;
                 height: 56px;
+                border: none;
+                cursor: pointer;
 }
 
 .section-one-btn:hover{
@@ -216,6 +245,7 @@ font-weight: 700;
 
 .footer-main{
     background: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo{
@@ -226,6 +256,8 @@ font-weight: 700;
         text-transform: uppercase;
         color: #4d5ae5;
         font-family: "Raleway", sans-serif;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-logo-color{
@@ -244,6 +276,7 @@ font-family: "Raleway", sans-serif;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px
 
 }
 
