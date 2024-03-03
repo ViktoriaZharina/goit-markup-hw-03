@@ -183,7 +183,6 @@ background-color: #404BBF;
 
 .advantages-item{
 width: calc((100% - 72px) / 4);
-
 }
 
 
@@ -223,6 +222,7 @@ color: #434455;
 }
 
 .team-item{
+    width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
