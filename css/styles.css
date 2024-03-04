@@ -279,6 +279,7 @@ font-weight: 700;
 }
 
 .portfolio-list{
+    width: calc((100% - 48px) / 3);
     flex-wrap: wrap;
     display: flex;
     column-gap: 24px;
@@ -323,6 +324,7 @@ font-weight: 700;
 }
 
 .footer-logo{
+    display: inline-block;
     font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -336,6 +338,7 @@ font-weight: 700;
 }
 
 .footer-logo-color{
+    display: inline-block;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.16667;
