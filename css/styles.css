@@ -11,6 +11,7 @@ img{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
 }
 
 
@@ -32,7 +33,7 @@ img{
 }
 
 
-nav ul,
+ul, nav ul,
 address ul {
     list-style: none;
     padding: 0;
@@ -107,6 +108,11 @@ address ul {
     color: #404BBF;
 }
 
+.addres-list{
+    display: flex;
+    gap: 40px;
+}
+
 .section-one{
     background: #2e2f42;
     padding: 188px 0;
@@ -160,21 +166,18 @@ background-color: #404BBF;
 }
 
 .visually-hidden{
-    position: absolute !important;
-    
-        width: 1px !important;
-    
-        height: 1px !important;
-        /* Встановлює висоту 1 піксель, щоб елемент був невидимим */
-        padding: 0 !important;
-        /* Встановлює внутрішні відступи 0, щоб елемент був невидимим */
-        overflow: hidden !important;
-        /* Приховує будь-який зміст, що виходить за межі елемента */
-        clip: rect(0 0 0 0) !important;
-        /* Відсікає будь-який зміст, що виходить за межі елемента */
-        border: 0 !important;
-        /* Встановлює рамку на нуль, щоб елемент був невидимим */
-    }
+position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 
 .advantages-list{
     display: flex;
