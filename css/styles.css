@@ -325,6 +325,7 @@ font-weight: 700;
 
 .footer-logo{
     display: inline-block;
+    display: inline-block;
     font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -338,6 +339,7 @@ font-weight: 700;
 }
 
 .footer-logo-color{
+    display: inline-block;
     display: inline-block;
 font-weight: 700;
 font-size: 18px;
