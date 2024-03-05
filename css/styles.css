@@ -324,7 +324,7 @@ font-weight: 700;
     display: inline-block;
 }
 
-.footer-logo{
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
     font-weight: 700;
@@ -337,12 +337,12 @@ font-weight: 700;
         
 }
 
-.footer-logo-color{
+.footer-logo-color {
     display: inline-block;
 margin-bottom: 16px;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #f4f4fd;
