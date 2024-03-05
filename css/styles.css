@@ -13,6 +13,11 @@ img{
     padding: 0 15px;
 }
 
+.header-main{
+    display: flex;
+    align-items: center;
+}
+
 
 .header {
     border-bottom: 1px solid #e7e9fc;
