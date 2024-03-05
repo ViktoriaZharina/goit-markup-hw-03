@@ -13,7 +13,7 @@ img{
     padding: 0 15px;
 }
 
-.header-main{
+.container-header{
     display: flex;
     align-items: center;
 }
