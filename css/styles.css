@@ -321,7 +321,6 @@ font-weight: 700;
 .footer-main{
     background: #2e2f42;
     padding: 100px 0;
-    display: inline-block;
 }
 
 .footer-logo {
@@ -338,7 +337,7 @@ font-weight: 700;
 }
 
 .footer-logo-color {
-    display: inline-block;
+display: inline-block;
 margin-bottom: 16px;
 font-weight: 700;
 font-size: 18px;
