@@ -10,7 +10,7 @@ a{
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
@@ -119,6 +119,8 @@ address ul {
 .section-one{
     background: #2e2f42;
     padding: 188px 0;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .section-one-title{
@@ -130,6 +132,8 @@ address ul {
         color: #fff;
         line-height: 1.07;
         max-width: 496px;
+        padding-bottom: 48px;
+        margin: 0 auto;
 }
 
 
@@ -151,6 +155,7 @@ address ul {
                 height: 56px;
                 border: none;
                 cursor: pointer;
+                margin: 0 auto;
 }
 
 .section-one-btn:hover{
